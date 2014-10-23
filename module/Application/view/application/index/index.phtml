@@ -1,1 +1,30 @@
 <h1>Welcome to the Buggy-woogie !!</h1>
+
+<h3>Generate some events</h3>
+<ul>
+<li>Slow request <a href="/application/monitor/slowrequest?delay=1">1,000ms</a>,
+	<a href="/application/monitor/slowrequest?delay=5">5,000ms</a>,
+	<a href="/application/monitor/slowrequest?delay=10">10,000ms</a>,
+</li>
+<li>Slow function ( curl_exec() ) <a href="/application/monitor/slowfunction?delay=1">1,000ms</a>,
+	<a href="/application/monitor/slowfunction?delay=5">5,000ms</a>,
+	<a href="/application/monitor/slowfunction?delay=10">10,000ms</a>,
+</li>
+<li>High memory usage request <a href="/application/monitor/highmemoryusage?mb=10">10Mb</a>,
+	<a href="/application/monitor/highmemoryusage?mb=20">20Mb</a>,
+	<a href="/application/monitor/highmemoryusage?mb=60">60Mb</a>,
+	<a href="/application/monitor/highmemoryusage?mb=100">100Mb</a>
+</li>
+<li>Generate <a href="/application/monitor/exception">exception</a></li>
+<li>Generate PHP error  : <a href="/application/monitor/error">notification</a>,
+	<a href="/application/monitor/error?type=warning">warning</a>,
+	<a href="/application/monitor/error?type=deprecated">deprecated</a>,
+	<a href="/application/monitor/error?type=error">error</a>,
+</li>
+<li>Slow database query <a href="/application/census">Go !</a></li>
+</ul>
+
+<h3>Tools</h3>
+<ul>
+<li>Access <a href="/nagios3" target="_blank">Nagios</a></li>
+</ul>

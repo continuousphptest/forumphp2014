@@ -18,7 +18,7 @@ class ResetController extends AbstractActionController
         //Cities
         $insertStr = 'INSERT INTO city VALUES';
         $cityArray = array();
-        for ($i = 0; $i < 15 ;$i++){
+        for ($i = 0; $i < 30 ;$i++){
         	$insertStr .= '(';
         	$name = $this->serviceLocator->get('alienNameGenerator')->getName(5);
         	$cityArray[] = $name;
@@ -28,7 +28,7 @@ class ResetController extends AbstractActionController
         $insertStr = trim($insertStr,',;');
         $dbAdpater->query($insertStr,Adapter::QUERY_MODE_EXECUTE);
         //Inhabitants
-        for ($j = 0; $j < 100 ; $j ++){
+        for ($j = 0; $j < 300 ; $j ++){
         	$insertStr = 'INSERT INTO alien VALUES';
             for ($i = 0; $i < 100 ;$i++){
                 $insertStr .= '(';

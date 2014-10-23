@@ -20,7 +20,6 @@
 if (file_exists('vendor/autoload.php')) {
     $loader = include 'vendor/autoload.php';
 }
-
 $zf2Path = false;
 
 if (is_dir('vendor/ZF2/library')) {
