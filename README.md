@@ -11,6 +11,7 @@ looking to get their feet wet with ZF2.
 Installation
 ------------
 
+
 Using Composer (recommended)
 ----------------------------
 The recommended way to get a working copy of this project is to clone the repository
