@@ -1,6 +1,4 @@
 <project name="continuousphp-api" default="help" basedir=".">
-    <property file="./build.properties" />
-
     <target name="help" description="List available targets">
         <exec executable="vendor/bin/phing"
               passthru="true">
