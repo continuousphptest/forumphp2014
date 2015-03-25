@@ -19,8 +19,6 @@ class AlienNameGenerator
     		$name .= static::$chunk[$pos];
     	}
 
-
-
     	return ucfirst($name);
     }
 }
