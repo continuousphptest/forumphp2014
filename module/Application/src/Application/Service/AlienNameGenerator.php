@@ -25,6 +25,9 @@ class AlienNameGenerator
 
 
 
+        //azerty
+
+
 
     	return ucfirst($name);
     }
