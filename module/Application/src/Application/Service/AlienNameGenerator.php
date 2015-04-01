@@ -20,6 +20,7 @@ class AlienNameGenerator
     	}
 
         //1
+        //2
 
     	return ucfirst($name);
     }
